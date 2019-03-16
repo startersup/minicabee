@@ -1,0 +1,345 @@
+ body
+ {
+    overflow-x:hidden;
+ }
+
+
+ .navbar
+    {
+    	background-color:#F4F7FA !important;
+    	border:none !important;
+    	border-radius:0px;
+    	min-height:60px !important;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    .navbar-left
+    {
+        float:left;
+    }
+ .navbar-right
+    {
+        float:right;
+    }
+    .navbar-nav li a
+    {
+        padding:20px 13px;
+        font-size:15px;
+        margin-top:5px;
+        color:#2E3F5D !important;
+        font-weight:700;
+        line-height: 20px;
+          font-family: 'Open Sans', sans-serif;
+    }
+     .navbar-nav li a:hover
+    {
+        color:#ffffff;
+    }
+    .container1
+    {
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .main
+    {
+        margin: 0 !important;
+   max-height:auto;
+    background: url(http://localhost/minicabee/assets/images/banner_1.jpg) no-repeat center center;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+
+    }
+    .right
+    {
+        border-right:2px solid #f1f1f1;
+    }
+    .nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.about, .why
+{
+    padding-top:60px;
+          font-family: 'Open Sans', sans-serif;
+    
+}
+    .offers
+    {
+        margin-top:-60px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight:700;
+    }
+    .about h2, .why h2
+    {
+         font-family: 'Open Sans', sans-serif;
+          font-weight:700;
+          line-height:25px;
+          color:#000000; 
+    }
+    .offers h3, .about h3, .why h3
+    {
+          font-family: 'Open Sans', sans-serif;
+          font-weight:700;
+          line-height:25px;
+          font-size:20px;
+          color:#00008b;
+    }
+    .offers p
+    {
+          font-family: 'Open Sans', sans-serif;
+          font-weight:700;
+          line-height:25px;
+
+    }
+    .about p, .why p
+    {
+
+          font-family: 'Open Sans', sans-serif; 
+          line-height:35px;
+          font-size:16px;
+          letter-spacing: 0.6px;
+    }
+    .book
+    {
+        background-color:#ffffff !important;
+        padding:10px;
+        margin-top:200px ;
+    }
+    .top
+    {
+        padding-top:100px;
+    }
+
+
+    input[type=text] {
+        width:100%;
+    padding: 12px 20px;
+         min-height:45px;
+    margin: 8px 0;
+        color:#000000;
+    box-sizing: border-box;
+    background-color: #E2E2E2;
+      font-family: 'Open Sans', sans-serif;
+}
+.textarea {
+        width:100%;
+    padding: 12px 20px;
+         min-height:45px;
+    margin: 8px 0;
+    min-height:150px;
+        color:#000000;
+    box-sizing: border-box;
+    background-color: #E2E2E2;
+      font-family: 'Open Sans', sans-serif;
+}
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+   background-color: #E2E2E2;
+    border-radius: 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 40px;
+    outline: none;
+font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.selectit {
+    width:100%;
+    min-height:45px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   background-color: #E2E2E2;
+}
+
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding:30px;
+  border-radius:8px;
+  background-color:#F5F5F5!important;
+}
+ .cardwhite {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color:#ffffff!important;
+}
+.cardws {
+  
+  transition: 0.3s;
+  width: 100%;
+  padding:10px;
+  border-radius:0px;
+  background-color:#ffffff!important;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.color:hover
+{
+    background-color:#f4f4f4;
+    cursor:pointer;
+}
+.buttonexplore {
+    background-color: #BDD400;
+    border: none;
+    border-radius:3px;
+    color: #000000;
+    font-weight:600;
+    letter-spacing: 0.8px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.buttonvia {
+    background-color: #BDD400;
+    border: none;
+    border-radius:3px;
+    color: #000000;
+    font-weight:600;
+    letter-spacing: 0px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 4px;
+    cursor: pointer;
+   font-family: 'Open Sans', sans-serif;
+}
+.pad
+{
+    padding:-10px -20px;
+}
+/*tabs*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700,300);
+.heading4{font-size:20px;font-weight:700;letter-spacing: 0.5px; font-family: 'Open Sans', sans-serif;color:#111111;margin:0px 0px 5px 0px;}
+.heading1{font-size:30px;line-height:20px;font-family: 'Open Sans', sans-serif;text-transform:uppercase;color:#1b2834;font-weight:900;}
+.content-quality{float:left;width:193px;}
+.content-quality p{margin-left:10px;font-family:'Open Sans', sans-serif;font-size:14px;font-weight:600;line-height:17px;}
+.content-quality p span{display:block;}
+.tabtop li a{font-family:'Lato', sans-serif;font-weight:500;color:#1b2834;border-radius:0px;margin-right:22.008px;!important;}
+.tabtop .active a:before{content:"♦";position:absolute;top:15px;left:82px;color:#CDDC39;font-size:30px;}
+.tabtop li a:hover{color:#000000 !important;text-decoration:none;}
+.tabtop .active a:hover{color:#000000 !important;}
+.tabtop .active a{background-color:#CDDC39 !important;color:#000000 !important;}
+.margin-tops{margin-top:30px;}
+.tabtop li a:last-child{padding:10px 22px;}
+.thbada{padding:10px 28px !important;}
+section p{font-family:'Lato', sans-serif;}
+.margin-tops4{margin-top:20px;}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px 4px 0 0;
+    font-weight:700;
+    font-size:14px;
+}
+.services{background-color:#d4d4d4;min-height:710px;padding:65px 0 27px 0;}
+.services a:hover{color:#000;}
+.services h1{margin-top:0px !important;}
+.heading-container p{font-family:'Lato', sans-serif;text-align:center;font-size:20px !important;text-transform:uppercase;}
+
+
+
+.padright
+{
+    border-right:2px solid #EBEBEB;
+    cursor: pointer;
+}
+
+
+.padright:hover
+{
+    background-color:#f4f4f4;
+}
+.padno:hover
+{
+    background-color:#f4f4f4;
+    cursor: pointer;
+}
+
+
+/*slider*/
+/* carousel */
+.media-carousel 
+{
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 25px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 25px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+
+/* End carousel */
+.footer { background-color: #08202e;font-family: 'Open Sans', sans-serif; padding-top: 80px; color: #636e74; font-weight: 400; font-size: 17px; }
+.footer-line { border-color: #152e3d; }
+.footer-widget { padding-bottom: 50px; }
+.footer-title { font-size: 24px; font-weight: 600; margin-bottom: 44px; color: #fff; }
+.footer-widget ul li a { text-transform: capitalize; font-size: 17px; color: #636e74; display: block; font-weight: 600; }
+.footer-widget ul li a:hover { color: #fff; }
+.newsletter-form { padding-top: 15px; }
+.newsletter-form .form-control { background-color: #1e2e38; border-color: #1e2e38; }
+.newsletter-form .form-control:focus { color: #fff; }
+.newsletter-form input::-webkit-input-placeholder { color: #fff !important; }
+.newsletter-form input:focus::-webkit-input-placeholder { color: #fff !important; }
+
+
+.tiny-footer { font-size: 14px; padding: 14px 0px; font-weight: 600; background-color: transparent; border-top: 1px solid #152e3d; color: #888d90; line-height: 1; }
+
+@media (max-width:767px){
+    #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
