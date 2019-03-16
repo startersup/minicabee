@@ -50,6 +50,7 @@
     background-size: cover !important;
 
     }
+
     .right
     {
         border-right:2px solid #f1f1f1;
@@ -57,6 +58,17 @@
     .nopadding {
    padding: 0 !important;
    margin: 0 !important;
+}
+.split
+{
+    border:1px solid #f4f4f4;
+    cursor:pointer;
+}
+.split:hover
+{
+   background-color: #f4f4f4;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 .about, .why
 {
@@ -70,14 +82,14 @@
           font-family: 'Open Sans', sans-serif;
           font-weight:700;
     }
-    .about h2, .why h2
+    .about h2, .why h2, .split h2
     {
          font-family: 'Open Sans', sans-serif;
           font-weight:700;
           line-height:25px;
           color:#000000; 
     }
-    .offers h3, .about h3, .why h3
+    .offers h3, .about h3, .why h3, .split h3
     {
           font-family: 'Open Sans', sans-serif;
           font-weight:700;
@@ -91,6 +103,13 @@
           font-weight:700;
           line-height:25px;
 
+    }
+    .split p
+    {
+      font-family: 'Open Sans', sans-serif; 
+          line-height:25px;
+          font-size:14px;
+          letter-spacing: 0.6px;  
     }
     .about p, .why p
     {
@@ -110,8 +129,16 @@
     {
         padding-top:100px;
     }
-
-
+     .topper
+     {
+        padding-top:50px;
+     }
+.regi
+{
+ border:1px solid #f4f4f4;
+    cursor:pointer;  
+    padding:10px; 
+}
     input[type=text] {
         width:100%;
     padding: 12px 20px;
@@ -323,7 +350,7 @@ section p{font-family:'Lato', sans-serif;}
 .footer { background-color: #08202e;font-family: 'Open Sans', sans-serif; padding-top: 80px; color: #636e74; font-weight: 400; font-size: 17px; }
 .footer-line { border-color: #152e3d; }
 .footer-widget { padding-bottom: 50px; }
-.footer-title { font-size: 24px; font-weight: 600; margin-bottom: 44px; color: #fff; }
+.footer-title { font-size: 24px; font-weight: 600; margin-bottom: 20px; color: #fff; }
 .footer-widget ul li a { text-transform: capitalize; font-size: 17px; color: #636e74; display: block; font-weight: 600; }
 .footer-widget ul li a:hover { color: #fff; }
 .newsletter-form { padding-top: 15px; }
@@ -342,4 +369,16 @@ section p{font-family:'Lato', sans-serif;}
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+}
+
+@media screen and (max-width: 600px) {
+ .about h2, .why h2, .split h2
+    {
+         font-family: 'Open Sans', sans-serif;
+          font-weight:700;
+          font-size:22px;
+          line-height:20px;
+          color:#000000; 
+    }
+    .footer-title { font-size: 18px;  }
 }

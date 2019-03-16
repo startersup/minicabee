@@ -1,5 +1,12 @@
 <?php include ( 'nav.html'); ?>
-
+<link href="./assets/css/boot.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="./assets/css/style.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/jquery.js"></script>
 <script src="./js/map.js"></script>
 <script src="./js/datepicker.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -367,12 +374,14 @@
 
 
 </section>
-<section class="about container">
+<section class="about  container">
 <br>
-<center><h2>Minicabee Quote Comparison</h2></center>
+<center><h2>Minicabee Quote Comparison</h2>
+ <img src="./assets/images/line-under.png">
+</center>
 <br>
 <div class="row">
-    <div class="col-md-6"><img src="./assets/images/about-img.jpg" style="max-width:500px;"></div>
+    <div class="col-md-6"><img src="./assets/images/about-img.jpg" style="max-width:500px;width:100%;"></div>
     <div class="col-md-6">
 <p>Minicabee helps to get a best with cheap fare minicab and Taxi services. MiniCabee is the best one for get the reliable with the comfortbale cab serivice with the base of price comparsion Booking system where we provide Quotes to your different pickups and dropoff. We are 100% guarantee you will get the best cab service provider for your journey before you leving our website</p>
 <br>
@@ -384,6 +393,7 @@
 <br>
 <center><h2>Why Minicabee?</h2>
 <p>Reach your Travel Destiny without Hassle</p>
+ <img src="./assets/images/line-under.png">
 </center>
 <br>
 <div class="row">
