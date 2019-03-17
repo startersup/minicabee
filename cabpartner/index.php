@@ -24,13 +24,75 @@
         <div class="container1">
         <div class="row">
         <div class="col-md-6">
-     <input  class="controls" type="text" placeholder="Enter Company Name " name="pick" required="" >
+     <input  class="controls" type="text" placeholder="Enter Company Name* " name="pick" required="" >
    </div>
     <div class="col-md-6">
-     <input  class="controls" type="text" placeholder="Enter Legal Name " name="pick" required="" >
+     <input  class="controls" type="text" placeholder="Enter Legal Name* " name="pick" required="" >
      </div>
    </div>
-      </div></div>
+        <div class="row">
+        <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Phone Number eg: +44 1234 567890*" name="pick" required="" >
+   </div>
+    <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Alternate Number" name="pick" >
+     </div>
+   </div>
+        <div class="row">
+        <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Person Name to Contact* " name="pick" required="" >
+   </div>
+    <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Contact Email Address*" name="pick" required="" >
+     </div>
+   </div>
+           <div class="row">
+        <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Website Url if available " name="pick" >
+   </div>
+    <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Booking Email Address" name="pick"  >
+     </div>
+   </div>
+    <div class="row">
+        <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Covering Areas eg: Heathrow, gatwick...* " name="pick" required="" >
+   </div>
+    <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Covering Range eg: 0 to 10 miles*" name="pick" required="" >
+     </div>
+   </div>
+       <div class="row">
+        <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Are you available 24/7 eg: yes or No *" name="pick" required="" >
+   </div>
+    <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Size of your Fleet eg: 1-10, 10-20.. *" name="pick" required="" >
+     </div>
+   </div>
+   <div class="row">
+        <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Private Hire Operator Licence Number *" name="pick" required="" >
+   </div>
+    <div class="col-md-6">
+     <input  class="controls" type="text"  placeholder="Licence expires on eg: 20th March 2017*" name="pick" required="" >
+     </div>
+   </div>
+      <div class="row">
+        <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Full Office Address *" name="pick" required="" >
+   </div>
+    <div class="col-md-6">
+     <input  class="controls" type="text"  placeholder="Licensing Local Authority & Type *" name="pick" required="" >
+     </div>
+   </div>
+     <div class="row">
+        <div class="col-md-12">
+   <textarea  class="controls textarea"  type="text" placeholder="Enter your Queries for us *" name="drop" ></textarea>
+   </div>
+   </div>
+   <center><button class="buttonexplore">Join with Minicabee</center>
+      </div>  
     </section>
 <br><br>
 
