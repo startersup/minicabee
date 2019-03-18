@@ -1,25 +1,65 @@
-<?php include ( 'nav.html'); ?>
-<link href="./assets/css/boot.min.css" rel="stylesheet" id="bootstrap-css">
-<link href="./assets/css/style.css" rel="stylesheet" id="bootstrap-css">
-<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
-<script src="./assets/js/jquery.js"></script>
-<script src="./js/map.js"></script>
-<script src="./js/datepicker.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/jquery.datetimepicker.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Minicabee |</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./assets/css/boot.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="./assets/css/style.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/jquery.datetimepicker.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
+</head>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand">
+                <center>
+                    <img src="https://minicabee.co.uk/images/logo.png" style="width:180px;margin-top:-22px;">
+                </center>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-brand-centered">
+            <ul class="nav navbar-nav">
+                <li><a href="http://localhost/minicabee/index.php">Home</a>
+                </li>
+                <li><a href="http://localhost/minicabee/about">About</a>
+                </li>
+                <li><a href="http://localhost/minicabee/services">Services</a>
+                </li>
+                <li><a href="http://localhost/minicabee/areas">Areas we cover</a>
+                </li>
+                <li><a href="http://localhost/minicabee/airports">Airports</a>
+                </li>
+                <li><a href="http://localhost/minicabee/track">Track Bookings</a>
+                </li>
+                <li><a href="http://localhost/minicabee/cabpartner">Cab Partners</a>
+                </li>
+                <li><a href="http://localhost/minicabee/sign">Signin / Signup</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!---maindiv starts-->
+
 <section class="main">
     <div class="container top">
         <div class="row">
-            <div class="col-md-5">
-               
-            </div>
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-12">
                 <div class="card">
                     <div class="tabbable-panel margin-tops4 ">
                         <div class="tabbable-line">
@@ -55,11 +95,11 @@
                                         <div class="col-md-12">
                                             <input id="autocomplete" class="controls" type="text" placeholder="Enter Pickup Location or Postcode " name="pick" required="" autocomplete="off">
                                         </div>
-                                         <div id="demo" class="collapse">
-                                              <div class="col-md-12">
-                                            <input id="autocomplete2" class="controls" type="text" placeholder="Add Via Point 1" name="pick" required="" autocomplete="off">
-                                        </div>
-                                           
+                                        <div id="demo" class="collapse">
+                                            <div class="col-md-12">
+                                                <input id="autocomplete2" class="controls" type="text" placeholder="Add Via Point 1" name="pick" required="" autocomplete="off">
+                                            </div>
+
                                         </div>
                                         <div class="col-md-12">
                                             <input id="autocomplete3" class="controls" type="text" placeholder="Enter Dropoff Location or Postcode" name="drop" required="" autocomplete="off">
@@ -120,8 +160,8 @@
                                         <button class="buttonexplore">Get Instant Quote</button>
                                     </center>
                                 </div>
-                                
-                                                                <div class="tab-pane fade in" id="2">
+
+                                <div class="tab-pane fade in" id="2">
                                     <br>
                                     <br>
                                     <h4 class="heading4">Get <span>10% Discount</span> on Airport Trips!</h4>
@@ -136,14 +176,14 @@
                                             </select>
                                         </div>
 
-                                       
+
                                         <div class="col-md-12">
                                             <input id="autocomplete" class="controls" type="text" placeholder="Enter Pickup Airport or Location" name="pick" required="" autocomplete="off">
                                         </div>
-                                          <div id="demo" class="collapse">
-                                               <div class="col-md-12">
-                                            <input id="autocomplete" class="controls" type="text" placeholder="Enter Pickup Airport or Location" name="pick" required="" autocomplete="off">
-                                        </div>
+                                        <div id="demo" class="collapse">
+                                            <div class="col-md-12">
+                                                <input id="autocomplete" class="controls" type="text" placeholder="Enter Pickup Airport or Location" name="pick" required="" autocomplete="off">
+                                            </div>
                                         </div>
                                         <div class="col-md-12">
                                             <input id="autocomplete2" class="controls" type="text" placeholder="Enter Dropoff Airport or Location" name="drop" required="" autocomplete="off">
@@ -204,14 +244,14 @@
                                         <button class="buttonexplore">Get Instant Quote</button>
                                     </center>
                                 </div>
-                                                      <div class="tab-pane fade in" id="3">
+                                <div class="tab-pane fade in" id="3">
                                     <br>
                                     <br>
                                     <h4 class="heading4">Looking for Long Trip in Budget Fare!</h4>
                                     <br>
 
                                     <div class="row">
-                                      
+
                                         <div class="col-md-12">
                                             <input id="autocomplete" class="controls" type="text" placeholder="Enter Pickup Postcode" name="pick" required="" autocomplete="off">
                                         </div>
@@ -254,36 +294,36 @@
                                             <input id="datetimepicker5" class="controls" type="text" placeholder="Pickup Date & Time" name="drop" required="" autocomplete="off">
 
                                         </div>
-                                       
+
                                     </div>
                                     <br>
                                     <center>
                                         <button class="buttonexplore">Get Instant Quote</button>
                                     </center>
                                 </div>
-                                
-                                
-                                                                              <div class="tab-pane  fade in" id="4">
+
+
+                                <div class="tab-pane  fade in" id="4">
                                     <br>
                                     <br>
                                     <h4 class="heading4">Huge Discounts on Group Bookings!</h4>
                                     <br>
 
                                     <div class="row">
-                                      
+
                                         <div class="col-md-12">
                                             <input class="controls" type="text" placeholder="Enter Business Email" name="pick" required="" autocomplete="off">
                                         </div>
                                         <div class="col-md-12">
-                                            <input  class="controls" type="text" placeholder="Enter Contact Number" name="drop" required="" autocomplete="off">
+                                            <input class="controls" type="text" placeholder="Enter Contact Number" name="drop" required="" autocomplete="off">
 
                                         </div>
-                                          <div class="col-md-12">
-                                              <textarea  class="controls textarea"  type="text" placeholder="Enter your Queries" name="drop" required="" autocomplete="off"></textarea>
+                                        <div class="col-md-12">
+                                            <textarea class="controls textarea" type="text" placeholder="Enter your Queries" name="drop" required="" autocomplete="off"></textarea>
 
                                         </div>
                                     </div>
-            
+
                                     <br>
                                     <center>
                                         <button class="buttonexplore">Submit Query</button>
@@ -298,154 +338,195 @@
         </div>
     </div>
 
-<br><br><br><br><br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 </section>
-<section class="offers container1">
-    
- <div class="carousel slide media-carousel cardwhite" id="media">
+
+<section class="offers container hidden-sm hidden-xs">
+
+    <div class="carousel slide media-carousel cardwhite" id="media">
         <div class="carousel-inner">
-          <div class="item  active container">
+            <div class="item  active container">
                 <div class="row">
-              <div class="col-md-4 col-xs-12 padright">
-                   <div class="row">
-                    <div class="col-xs-9">
-                    <h3>Cheaper Airport Rides</h3>
-<p>Get a discount Fare on each of the Airport pickups.</p>
-</div>
-<div class="col-xs-3"><img src="./assets/images/travel.png" style="margin-top:30px;"></div>
-</div>
-                    </div>           
-              <div class="col-md-4 col-xs-12 padright">
-                 <div class="row">
-                    <div class="col-xs-9">
-                            <h3>Two Way Discounts</h3>
-<p>Book a Two way Trip and grab your discounts </p>
-                    </div> 
-                    <div class="col-xs-3"><img src="./assets/images/two.png" style="margin-top:30px;"></div>   </div>
-</div>  
-            <div class="col-md-4 col-xs-12  padno">
-                 <div class="row">
-                    <div class="col-xs-9">
-                    <h3>Offer for Corporate</h3>
-<p>Get Flat Discount on the Bulk Bookings.</p>
-                    </div> 
-                      <div class="col-xs-3"><img src="./assets/images/voucher.png" style="margin-top:30px;"></div>
-                    </div></div>            
+                    <div class="col-md-4 col-xs-12 padright">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h3>Cheaper Airport Rides</h3>
+                                <p>Get a discount Fare on each of the Airport pickups.</p>
+                            </div>
+                            <div class="col-xs-3">
+                                <img src="./assets/images/travel.png" style="margin-top:30px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 padright">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h3>Two Way Discounts</h3>
+                                <p>Book a Two way Trip and grab your discounts</p>
+                            </div>
+                            <div class="col-xs-3">
+                                <img src="./assets/images/two.png" style="margin-top:30px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12  padno">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h3>Offer for Corporate</h3>
+                                <p>Get Flat Discount on the Bulk Bookings.</p>
+                            </div>
+                            <div class="col-xs-3">
+                                <img src="./assets/images/voucher.png" style="margin-top:30px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-           </div>
-          <div class="item container">
-           <div class="row">
-              <div class="col-md-4 padright">
-           <div class="row">
-                    <div class="col-xs-9">
-                    <h3>No Hidden Charges</h3>
-<p>There is no waiting charges upto an hour.</p>
-                    </div> 
-   <div class="col-xs-3"><img src="./assets/images/stopwatch.png" style="margin-top:30px;"></div>
-                     </div></div>         
-              <div class="col-md-4 padright">
-                 <div class="row">
-                    <div class="col-xs-9">
-                            <h3> Newbie Discounts</h3>
-<p>A Welcome Surpise Fare for Newbie Customers</p>
-                    </div> 
-                       <div class="col-xs-3"><img src="./assets/images/community.png" style="margin-top:30px;"></div>
-    </div></div> 
-            <div class="col-md-4 padno">
-               <div class="row">
-                    <div class="col-xs-9">
-                    <h3>Earlybird Bookings</h3>
-<p>Book As Earlier as possible and get Huge Discount! </p>
-                    </div> 
- <div class="col-xs-3"><img src="./assets/images/calendar.png" style="margin-top:30px;"></div>
-                     </div></div>           
+            <div class="item container">
+                <div class="row">
+                    <div class="col-md-4 padright">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h3>No Hidden Charges</h3>
+                                <p>There is no waiting charges upto an hour.</p>
+                            </div>
+                            <div class="col-xs-3">
+                                <img src="./assets/images/stopwatch.png" style="margin-top:30px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 padright">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h3> Newbie Discounts</h3>
+                                <p>A Welcome Surpise Fare for Newbie Customers</p>
+                            </div>
+                            <div class="col-xs-3">
+                                <img src="./assets/images/community.png" style="margin-top:30px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 padno">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h3>Earlybird Bookings</h3>
+                                <p>Book As Earlier as possible and get Huge Discount!</p>
+                            </div>
+                            <div class="col-xs-3">
+                                <img src="./assets/images/calendar.png" style="margin-top:30px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-         
+
         </div>
         <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
         <a data-slide="next" href="#media" class="right carousel-control">›</a>
-     
-      </div>                          
+
     </div>
-  </div>
-</div>
+    </div>
+    </div>
+    </div>
 
 
 </section>
+
+
 <section class="about  container">
-<br>
-<center><h2>Minicabee Quote Comparison</h2>
- <img src="./assets/images/line-under.png">
-</center>
-<br>
-<div class="row">
-    <div class="col-md-6"><img src="./assets/images/about-img.jpg" style="max-width:500px;width:100%;"></div>
-    <div class="col-md-6">
-<p>Minicabee helps to get a best with cheap fare minicab and Taxi services. MiniCabee is the best one for get the reliable with the comfortbale cab serivice with the base of price comparsion Booking system where we provide Quotes to your different pickups and dropoff. We are 100% guarantee you will get the best cab service provider for your journey before you leving our website</p>
-<br>
-<p>Using Minicab Services in United Kingdom is Usual but you want to be your minicab ride with comfortable price and comfortable time with quality of service works only at Minicabee, We cover all over United Kingdom especially airports ,stations , sea ports , hotels , schools , universities , hospitals , events ,etc,... Book a cheap taxi online in MiniCabee and enjoy your ride with best in class . MiniCabee offer taxis for all your needs in all around UK. 
-</p>
-</div>
+    <br>
+    <center>
+        <h2>Minicabee Quote Comparison</h2>
+        <img src="./assets/images/line-under.png">
+    </center>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="./assets/images/about-img.jpg" style="max-width:500px;width:100%;">
+        </div>
+        <div class="col-md-6">
+            <p>Minicabee helps to get a best with cheap fare minicab and Taxi services. MiniCabee is the best one for get the reliable with the comfortbale cab serivice with the base of price comparsion Booking system where we provide Quotes to your different
+                pickups and dropoff. We are 100% guarantee you will get the best cab service provider for your journey before you leving our website</p>
+            <br>
+            <p>Using Minicab Services in United Kingdom is Usual but you want to be your minicab ride with comfortable price and comfortable time with quality of service works only at Minicabee, We cover all over United Kingdom especially airports ,stations
+                , sea ports , hotels , schools , universities , hospitals , events ,etc,... Book a cheap taxi online in MiniCabee and enjoy your ride with best in class . MiniCabee offer taxis for all your needs in all around UK.
+            </p>
+        </div>
 </section>
+
+
 <section class="why container">
-<br>
-<center><h2>Why Minicabee?</h2>
-<p>Reach your Travel Destiny without Hassle</p>
- <img src="./assets/images/line-under.png">
-</center>
-<br>
-<div class="row">
-
-    <div class="col-md-6"> 
-        <div class="row color">
-         <div class="col-xs-3">
-                    <img src="./assets/images/shield.png" style="margin-top:30px;"></div>
-                    <div class="col-xs-9">
-                    <h3>Secure and Safer Rides</h3>
-                    <p>Well Experince Drivers with all the required documents verified. Any Issue with Driver Immediate Actions Noted.</p>
-                     </div> 
-                     </div></div>
-     <div class="col-md-6">
-           <div class="row color">
-         <div class="col-xs-3">
-                    <img src="./assets/images/hidden.png" style="margin-top:30px;"></div>
-                    <div class="col-xs-9">
-                    <h3>No Hidden Charges</h3>
-                    <p>There is Hidden Charges applied for the customers at any cost.Passengers are acknowledged by the Fares and Additional charges. </p>
-                     </div> 
-                     </div>
-
-     </div>
-    </div><br><br>
+    <br>
+    <center>
+        <h2>Why Minicabee?</h2>
+        <p>Reach your Travel Destiny without Hassle</p>
+        <img src="./assets/images/line-under.png">
+    </center>
+    <br>
     <div class="row">
 
-    <div class="col-md-6"> 
-        <div class="row color">
-         <div class="col-xs-3">
-                    <img src="./assets/images/car.png" style="margin-top:30px;"></div>
-                    <div class="col-xs-9">
+        <div class="col-md-6">
+            <div class="row color">
+                <div class="col-xs-3">
+                    <img src="./assets/images/shield.png" style="margin-top:30px;">
+                </div>
+                <div class="col-xs-9">
+                    <h3>Secure and Safer Rides</h3>
+                    <p>Well Experince Drivers with all the required documents verified. Any Issue with Driver Immediate Actions Noted.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row color">
+                <div class="col-xs-3">
+                    <img src="./assets/images/hidden.png" style="margin-top:30px;">
+                </div>
+                <div class="col-xs-9">
+                    <h3>No Hidden Charges</h3>
+                    <p>There is Hidden Charges applied for the customers at any cost.Passengers are acknowledged by the Fares and Additional charges.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="row color">
+                <div class="col-xs-3">
+                    <img src="./assets/images/car.png" style="margin-top:30px;">
+                </div>
+                <div class="col-xs-9">
                     <h3>Comfortable Cabs</h3>
                     <p>No Adjustment in Minicabee at anytime. Customer's Comfort are focused rather than Money.</p>
-                     </div> 
-                     </div></div>
-     <div class="col-md-6">
-           <div class="row color">
-         <div class="col-xs-3">
-                    <img src="./assets/images/discount.png" style="margin-top:30px;"></div>
-                    <div class="col-xs-9">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row color">
+                <div class="col-xs-3">
+                    <img src="./assets/images/discount.png" style="margin-top:30px;">
+                </div>
+                <div class="col-xs-9">
                     <h3>Discount for Sure</h3>
                     <p>Providing Offers and Discount on every festival and even normal occasions. so offer is sure in minicabee.</p>
-                     </div> 
-                     </div>
+                </div>
+            </div>
 
-     </div>
+        </div>
     </div>
-    </section>
-<br><br>
+</section>
 
-<?php include ( 'foot.html'); ?>
+<br>
+<br>
 
 <script>
     $(document).ready(function() {
@@ -561,7 +642,7 @@
             });
 
 
-  // When the user selects an address from the dropdown, populate the address
+        // When the user selects an address from the dropdown, populate the address
         // fields in the form.
         autocomplete3.addListener('place_changed', fillInAddress);
 
@@ -635,7 +716,7 @@
             }
         }
 
-         var place = autocomplete4.getPlace();
+        var place = autocomplete4.getPlace();
 
         for (var component in componentForm) {
             document.getElementById(component).value = '';

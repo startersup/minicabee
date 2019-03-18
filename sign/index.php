@@ -50,27 +50,39 @@
         </div>
     </div>
 </nav>
-
-<section class="about abbanner">
-    <div class="container top">
-    	<center><h2>Quote Comparison</h2>
+<section class="about abbanner container">
+    <div class=" topper">
+    	<center><h2>Get in Now</h2>
         <img src="../assets/images/line-under.png">
     	</center>
-    	<br><br>
-    	<div class="row">
-    <div class="col-md-6"><img src="../assets/images/banner_2.jpg" style="max-width:500px;width:100%;"></div>
+      <center>     <h3>You are One Step away from Booking with us !</h3></center>
+<br><br>
+      <div class="regi">
+        <div class="container1">
+        <div class="row">
+        <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Name* " name="pick" required="" >
+   </div>
     <div class="col-md-6">
-    	<p>Minicabee helps to get a best with cheap fare mincab and Taxi services for your Compare Minicabs & Taxis - Book Online. MiniCabee is the best one for get the reliable with the comfortbale cab serivice with the base of price comparsion Booking sysyetm where we provide Quotes to your different pickups and dropoff. We are 100% guarantee you will get the best cab service provider for your journey before you leving our website</p>
-    	<br>
-<p>Using Minicab Services in United Kingdom is Usual but you want to be your minicab ride with comfortable price and comfortable time with quality of service works only at Minicabee, We cover all over United Kingdom especially airports ,stations , sea ports , hotels , schools , universities , hospitals , events ,etc,... Book a cheap taxi online in MiniCabee and enjoy your ride with best in class . MiniCabee offer taxis for all your needs in all around UK. 
-</p>
-<br>
-<p>Transfers and commute can never be more comfortable without a scheduled pick up and drop, a convenient, hassle-free booking process and an affordable quality ride. Well! These are the factors, that as an experienced transfer and cab service providers, we do focus on. MiniCabee providing an ontime and affordable transfer to and from all over UK pick-up and drop-off any where any time .Spcially Airports , Stations,Cruise ports ,hotels,Schools, colleges ,Universities,Evenits ,etc....</p>
-</div>
-       </div>
+     <input  class="controls" type="text" placeholder="Enter Contact Number* " name="pick" required="" >
+     </div>
+    <div class="col-md-12">
+     <input  class="controls" type="text" placeholder="Enter Email Address* " name="pick" required="" >
+     </div>
+           <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Enter Password* " name="pick" required="" >
+   </div>
+    <div class="col-md-6">
+     <input  class="controls" type="text" placeholder="Re enter Password* " name="pick" required="" >
+     </div>
+
+   </div>
+ 
+   <center><button class="buttonexplore">Signup Now</center>
+      </div>  
     </section>
 <br><br>
 
-<?php include ( '../foot.html'); ?>
+
 
 
