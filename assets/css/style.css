@@ -79,7 +79,7 @@
     {
         margin: 0 !important;
    max-height:auto;
-    background: url(http://localhost/minicabee/assets/images/banner_1.jpg) no-repeat center center;
+    background: url(../images/banner.jpg) no-repeat center center;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
