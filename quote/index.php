@@ -13,186 +13,174 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-<section class="quote">
-<div class="row">
- <div class="col-md-4 hidden-xs"> 
-                 <div id="wrapper">
-                            <div id="map"></div>
-                            <div id="over_map">
-                         <p class="livedata container1"> Taxi From Gatwick Airport to Heathrow Airport Terminal 5| Distance : 0 Miles | Time : 1hr 15 mins </p>
-                            </div>
-                         </div>
+<body style="background-color:#E9E9E9;">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+        
+            <div class="navbar-brand">
+                
+                <center>
+                      <a onclick="window.history.go(-1); return false;"> <span style="font-size:20px; font-family: 'Open Sans', sans-serif;font-weight:600;color:#000000;"><i class="fa fa-arrow-left"></i> Back</span></a>
+                </center>
+            </div></div>
+             <div class="collapse navbar-collapse" id="navbar-brand-centered">
+        <center><p class="centext">Instant & Discounted Fares for you !</p></center>
+        </div>
+        </div>
+</nav>
+   <div class="quote">
+    <div class="row">
+       <div class="col-md-4 hidden-xs hidden-sm" >
+        <div id="map" > </div>
+        </div>
+        <div class="col-md-8" style="max-height:100vh;overflow-y:scroll;">
+            <div class="container2">
+            <div class="quoter topping">
+            <div class="row">
+            <div class="col-md-3">
+                <center> <img src="../assets/images/2.png" class="small"></center>
+             </div> 
+                <div class="col-md-3">
+                <h3>Britannia Cars</h3>
+                <center><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></center>
+                </div>  
+                <div class="col-md-3">
+                <h3>£89</h3>
+                <p>Saloon Car</p>
                 </div>
-                <div class="col-md-8">
-                    <div class="display">
-                        <br>
-  <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
+                <div class="col-md-3">
+                 <center><button class="buttonexplore toping">Book Now</button></center>                   
+                </div>
+            </div>
+            </div>
+                
+                 <div class="quoter">
+            <div class="row">
+            <div class="col-md-3">
+                <center> <img src="../assets/images/3.png" class="small"></center>
+             </div> 
+                <div class="col-md-3">
+                <h3>Atlas Cars</h3>
+                <center><span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
-                       <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
-                       <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
-                       <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
-                       <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
-                       <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
-                       <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
-                       <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
-                       <div class="row">
-                       <div class="col-md-3 col-xs-3">
-                        <img class="taxi" src="https://heathrowairport-taxis.co.uk/images/images/2.png" >
-                     </div>
-                          <div class="col-md-3 col-xs-5">
-                       <p class="company">Britannia Cars</p>
-                              <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-                     </div>
-                            <div class="col-md-3 col-xs-4">
-                       <p class="company">Saloon Car</p>
-                        <span class="fare">£69.53</span>
-                     </div>
-                     <div class="col-md-3 col-xs-6"> <br><btn class="btn btn-primary bookbtn">Book Now</btn></div>
-                     </div><hr>
+<span class="fa fa-star"></span></center>
+                </div>  
+                <div class="col-md-3">
+                <h3>£93</h3>
+                <p>Estate Car</p>
+                </div>
+                <div class="col-md-3">
+                 <center><button class="buttonexplore toping">Book Now</button></center>                   
+                </div>
+            </div>
+            </div>
 
-</div></div>
-</div>
-</section>
+                <div class="quoter">
+            <div class="row">
+            <div class="col-md-3">
+                <center> <img src="../assets/images/4.png" class="small"></center>
+             </div> 
+                <div class="col-md-3">
+                <h3>Pickme Cars</h3>
+                <center><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></center>
+                </div>  
+                <div class="col-md-3">
+                <h3>£102</h3>
+                <p>MPV-4 Car</p>
+                </div>
+                <div class="col-md-3">
+                 <center><button class="buttonexplore toping">Book Now</button></center>                   
+                </div>
+            </div>
+            </div>
+                
+                
+                <div class="quoter">
+            <div class="row">
+            <div class="col-md-3">
+                <center> <img src="../assets/images/4.png" class="small"></center>
+             </div> 
+                <div class="col-md-3">
+                <h3>Britannia Cars</h3>
+                <center><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></center>
+                </div>  
+                <div class="col-md-3">
+                <h3>£89</h3>
+                <p>Saloon Car</p>
+                </div>
+                <div class="col-md-3">
+                 <center><button class="buttonexplore toping">Book Now</button></center>                   
+                </div>
+            </div>
+            </div>
+                
+                
+                <div class="quoter">
+            <div class="row">
+            <div class="col-md-3">
+                <center> <img src="../assets/images/3.png" class="small"></center>
+             </div> 
+                <div class="col-md-3">
+                <h3>Britannia Cars</h3>
+                <center><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></center>
+                </div>  
+                <div class="col-md-3">
+                <h3>£89</h3>
+                <p>Saloon Car</p>
+                </div>
+                <div class="col-md-3">
+                 <center><button class="buttonexplore toping">Book Now</button></center>                   
+                </div>
+            </div>
+            </div>
+                
+                <div class="quoter">
+            <div class="row">
+            <div class="col-md-3">
+                <center> <img src="../assets/images/3.png" class="small"></center>
+             </div> 
+                <div class="col-md-3">
+                <h3>Britannia Cars</h3>
+                <center><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></center>
+                </div>  
+                <div class="col-md-3">
+                <h3>£89</h3>
+                <p>Saloon Car</p>
+                </div>
+                <div class="col-md-3">
+                 <center><button class="buttonexplore toping">Book Now</button></center>                   
+                </div>
+            </div>
+            </div>
+                
+                
+                </div>
+        </div>
+       </div>
+    </div>
  <script>
 
       function initMap() {

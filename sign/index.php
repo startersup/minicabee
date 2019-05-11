@@ -30,10 +30,6 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-brand-centered">
             <ul class="nav navbar-nav">
-                <li><a href="http://localhost/minicabee/index.php">Home</a>
-                </li>
-                <li><a href="http://localhost/minicabee/about">About</a>
-                </li>
                 <li><a href="http://localhost/minicabee/services">Services</a>
                 </li>
                 <li><a href="http://localhost/minicabee/areas">Areas we cover</a>
@@ -78,8 +74,8 @@
 
    </div>
  
-   <center><button class="buttonexplore">Signup Now</center>
-      </div>  
+            <center><button class="buttonexplore">Signup Now</button></center>
+          </div>  </div></div>
     </section>
 <br><br>
 
