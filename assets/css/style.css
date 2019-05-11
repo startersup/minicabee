@@ -138,10 +138,11 @@
 {
     border:1px solid #f4f4f4;
     cursor:pointer;
+    background-color: #ffffff;
 }
 .split:hover
 {
-   background-color: #f4f4f4;
+  background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
