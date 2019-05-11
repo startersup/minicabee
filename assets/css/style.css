@@ -53,7 +53,7 @@
     }
     .navbar-nav li a
     {
-        padding:20px 13px;
+        margin:5px 15px;
         font-size:15px;
         margin-top:5px;
         color:#2E3F5D !important;
@@ -78,15 +78,36 @@
     .main
     {
         margin: 0 !important;
-   max-height:auto;
-    background: url(../images/banner.jpg) no-repeat center center;
+      max-height:auto;
+    background: url(../images/london.gif) no-repeat center center;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
     background-size: cover !important;
 
     }
-
+.main h1
+{
+  font-family: 'Open Sans', sans-serif;
+    font-size:35px;
+    margin-top:80px;
+    line-height:60px;
+    font-weight:700;
+    color:#ffffff;
+    letter-spacing: 0.5px;
+}
+.main p
+{
+  font-family: 'Open Sans', sans-serif;
+    font-size:25px;
+    padding:10px;
+    opacity:0.9;
+    margin-top:10px;
+    line-height:30px;
+    font-weight:500;
+    color:#ffffff;
+    letter-spacing: 0.5px;
+}
     .right
     {
         border-right:2px solid #f1f1f1;
@@ -204,6 +225,38 @@
     background-color: #E2E2E2;
       font-family: 'Open Sans', sans-serif;
 }
+.inputWithIcon input[type="text"] {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 15px;
+  padding: 9px 10px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+}
 .textarea {
         width:100%;
     padding: 12px 20px;
@@ -244,7 +297,7 @@ font-family: 'Open Sans', sans-serif;
   width: 100%;
   padding:30px;
   border-radius:8px;
-  background-color:#F5F5F5!important;
+  background-color:#ffffff!important;
 }
  .cardwhite {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -459,6 +512,26 @@ section p{font-family:'Lato', sans-serif;}
     line-height: 30px;
     font-size: 14px;
     letter-spacing: 0.6px;
+}
+    .main p
+{
+  font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    margin-top:5px;
+    line-height:50px;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.5px;
+}
+    .main h1
+{
+  font-family: 'Open Sans', sans-serif;
+    font-size:28px;
+    margin-top:50px;
+    line-height:50px;
+    font-weight:700;
+    color:#ffffff;
+    letter-spacing: 0.5px;
 }
 
 }
