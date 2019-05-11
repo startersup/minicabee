@@ -51,30 +51,38 @@
         <img src="../assets/images/line-under.png">
     	</center>
       <center>     <h3>You are One Step away from Booking with us !</h3></center>
-<br><br>
+<br>
+          <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-6">
       <div class="regi">
         <div class="container1">
+            <br>
         <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
      <input  class="controls" type="text" placeholder="Enter Name* " name="pick" required="" >
    </div>
-    <div class="col-md-6">
+    <div class="col-md-12">
      <input  class="controls" type="text" placeholder="Enter Contact Number* " name="pick" required="" >
      </div>
     <div class="col-md-12">
      <input  class="controls" type="text" placeholder="Enter Email Address* " name="pick" required="" >
      </div>
-           <div class="col-md-6">
+           <div class="col-md-12">
      <input  class="controls" type="text" placeholder="Enter Password* " name="pick" required="" >
    </div>
-    <div class="col-md-6">
+    <div class="col-md-12">
      <input  class="controls" type="text" placeholder="Re enter Password* " name="pick" required="" >
      </div>
 
    </div>
  
             <center><button class="buttonexplore">Signup Now</button></center>
+            <a href="../login">Already having account?</a>
           </div>  </div></div>
+              <div class="col-md-4"></div>
+        </div>
+    </div>
     </section>
 <br><br>
         <!--footer starts from here-->
