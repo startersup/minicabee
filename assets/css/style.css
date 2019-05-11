@@ -614,8 +614,9 @@ section p{font-family:'Lato', sans-serif;}
 }
 .darkfooter
 {
-    background-color:#f4f4f4;
+    background-color:#253754;
     padding:20px 5px 5px 5px;
+    color:#ffffff;
 }
 .darkfooter ul li
 {
@@ -623,7 +624,7 @@ section p{font-family:'Lato', sans-serif;}
     font-family: 'Open Sans', sans-serif; 
     font-size:14px;
      font-weight:500;
-    border-left:1px solid #000000;
+    border-left:1px solid #ffffff;
     padding:0px 10px;
 }
 .darkfooter p
