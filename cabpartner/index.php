@@ -29,20 +29,18 @@
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbar-brand-centered">
-            <ul class="nav navbar-nav">
-                <li><a href="http://localhost/minicabee/services">Services</a>
+              <div class="collapse navbar-collapse" id="navbar-brand-centered">
+             <ul class="nav navbar-nav navbar-right">
+                <li><a href="../services">Services</a>
                 </li>
-                <li><a href="http://localhost/minicabee/areas">Areas we cover</a>
+                <li><a href="../track">Track Bookings</a>
                 </li>
-                <li><a href="http://localhost/minicabee/airports">Airports</a>
+                <li><a href="../cabpartner">Cab Partners</a>
                 </li>
-                <li><a href="http://localhost/minicabee/track">Track Bookings</a>
-                </li>
-                <li><a href="http://localhost/minicabee/cabpartner">Cab Partners</a>
-                </li>
-                <li><a href="http://localhost/minicabee/sign">Signin / Signup</a>
+                <li><a href="../sign">Signin / Signup</a>
                 </li>
             </ul>
+        </div>
         </div>
     </div>
 </nav>
