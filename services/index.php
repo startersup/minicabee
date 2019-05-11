@@ -24,7 +24,7 @@
             </button>
             <div class="navbar-brand">
                 <center>
-                    <img src="https://minicabee.co.uk/images/logo.png" style="width:180px;margin-top:-22px;">
+                   <a href="../index.html" ><img src="https://minicabee.co.uk/images/logo.png" style="width:180px;margin-top:-22px;"></a>
                 </center>
             </div>
         </div>
