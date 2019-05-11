@@ -751,12 +751,19 @@ section p{font-family:'Lato', sans-serif;}
     line-height:19px;
     color:#ffffff;  
 }
+      .card {
+  transition: 0.3s;
+  width: 100%;
+  padding:20px 30px;
+  border-radius:6px;
+  background-color:#f7f7f7 !important;
+}
   .main
     {
         margin: 0 !important;
       max-height:auto;
         background-image: none;
-    background-color: #ffffff !important;
+    background-color: #f7f7f7 !important;
 
     }
 
