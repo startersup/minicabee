@@ -1,0 +1,164 @@
+               
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welcome Saicharan | Minicabee Travel Solutions</title>
+    <meta charset="utf-8">
+    <link href="./assets/css/boot.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon" sizes="16x16" />
+    <link href="./assets/css/style.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+                
+<div class="invoice-box" id="content">
+                                <table cellpadding="0" cellspacing="0" >
+                                    <tr>
+                                        <td style="text-align:center;">
+                                            <img src="./assets/images/logo.png" style="width:100%; max-width:300px;">
+                                        </td>
+                                        <td style="text-align:right;">
+                                            <h1>Booking Receipt</h1>
+                                            <h5>Issued by: Minicabee Travel Solutions, London</h5>
+                                        </td>
+                                    </tr>
+                                    <tr class="top">
+                                        <td colspan="2">
+                                            <table>
+                                                <tr>
+                                                    <td>To: Mohammed Riyas,
+                                                        <br/>mytaxequote@gmail.com,
+                                                        <br/>+447818065914.
+                                                        <br/>
+                                                    </td>
+                                                    <td>Booking Ref #: MCE234587
+                                                        <br>Invoice #: 763133
+                                                        <br>Created on: 16th May 2019.
+                                                        <br>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr class="heading">
+                                        <td colspan="2">Journey Information</td>
+                                    </tr>
+                                    <tr class="item">
+
+                                        <td> Pickup From :</td>
+                                        <td>Bowness-on-Windermere LA23 3AE, United Kingdom</td>
+                                    </tr>
+                                    <tr class="item">
+                                        <td>Dropoff To :</td>
+
+                                        <td>Hilton London Euston, Upper Woburn Place, Kings Cross, London, United Kingdom</td>
+                                    </tr>
+                                    <tr class="item">
+                                        <td>Pickup Date & Time:</td>
+                                        <td>2017-06-18 08:00:00</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Special Notes :</td>
+                                        <td>The building is near the street end </td>
+                                    </tr>
+
+                                    <tr class="heading">
+                                        <td>Description</td>
+                                        <td>Price</td>
+                                    </tr>
+                                    <tr class="item">
+                                        <td>
+                                           Booking Fare
+                                        </td>
+
+                                        <td>
+                                            &pound; 320.00
+                                        </td>
+                                    </tr>
+
+                                    <tr class="item">
+                                        <td>
+                                           Additional Handling Charges
+                                        </td>
+
+                                        <td>
+                                            &pound; 0</td>
+                                    </tr>
+
+
+
+                                    <tr class="item">
+
+                                        <td>Booking Total:</td>
+                                        <td>
+                                            <b>&pound; 320</b>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="item">
+
+                                        <td>Payment Method :</td>
+                                        <td>
+                                            <b> Paid By Cash                 </b>
+                                        </td>
+                                    </tr>
+                                    <tr class="heading">
+                                        <td colspan="2" style="text-align:center;">
+                                            <b>Note: </b> This is an automatic generated invoice after 24 hours of your journey
+                                            <br>
+
+                                        </td>
+                                    </tr>
+
+
+                                    <tr class="total">
+                                        <td colspan="2" style="text-align:center">
+<p style="font-size:14px;">For any queries please contact us at :+44 01293344804</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                   
+                            </div>
+                     <center> <button class="buttonexplore" id="print" type="button">Print Invoice</button></center>          
+    </body>
+
+ <script type="text/javascript">
+
+	$("#print").click(function(){
+ window.print();
+});
+
+
+ html2canvas($("#content"), {
+            onrendered: function( canvas ) {
+               $("#content").empty().append(canvas);
+             } });
+
+
+	$("#data").click(function(){
+	
+        html2canvas($("#content"), {
+            onrendered: function(canvas) {
+
+              var imgData = canvas.toDataURL("image/jpeg", 1.0);
+  var pdf = new jsPDF();
+
+  pdf.addImage(imgData, 'JPEG', 0, 0);
+
+  pdf.save("download.pdf");
+
+            }
+        });
+
+	});
+</script>
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script> 
+<script src="//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script> 
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.min.js"></script>
+</html>

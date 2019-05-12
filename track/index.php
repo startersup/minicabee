@@ -5,6 +5,7 @@
     <title>Minicabee |</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon"  sizes="16x16" />
     <link href="../assets/css/boot.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="../assets/css/style.css" rel="stylesheet" id="bootstrap-css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700" rel="stylesheet">

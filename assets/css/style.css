@@ -472,7 +472,7 @@ font-family: 'Open Sans', sans-serif;
     color: #000000;
     font-weight:600;
     letter-spacing: 0.8px;
-    padding: 8px 20px;
+    padding: 8px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -522,6 +522,118 @@ font-family: 'Open Sans', sans-serif;
     padding:-10px -20px;
 }
 /*tabs*/
+ .invoice-box{
+        max-width:800px;
+        margin:auto;
+        padding:30px;
+        font-size:16px;
+        line-height:24px;
+      border:1px solid #eee;
+       font-family: 'Open Sans', sans-serif;
+        color:#555;
+    }
+ .invoice-box h1
+{
+   font-weight:700;
+    font-size:25px;
+    padding:5px;
+}
+
+ .invoice-box h5
+{
+    letter-spacing: 0.6px;
+}
+     @media print {
+
+     	button
+     	{
+     		display: none;
+     	}
+     	.invoice-box table tr.heading td {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+}
+     }
+    
+    .invoice-box table{
+        width:100%;
+        margin-top:-20px;
+        line-height:inherit;
+        text-align:left;
+    }
+    
+    .invoice-box table td{
+        padding:5px;
+        line-height:30px;
+        vertical-align:top;
+    }
+    
+    .invoice-box table tr td:nth-child(2){
+        text-align:right;
+    }
+    
+    .invoice-box table tr.top table td{
+        padding-bottom:20px;
+    }
+    
+    .invoice-box table tr.top table td.title{
+        font-size:45px;
+        line-height:45px;
+        color:#333;
+    }
+    
+    .invoice-box table tr.information table td{
+        padding-bottom:40px;
+    }
+    
+    .invoice-box table tr.heading td{
+        background:#eee;
+        font-weight:700;
+        padding:5px 10px;
+        border-bottom:1px solid #ddd;
+    }
+    
+    .invoice-box table tr.details td{
+        padding-bottom:20px;
+    }
+    
+    .invoice-box table tr.item td{
+        border-bottom:1px solid #eee;
+    }
+    
+    .invoice-box table tr.item.last td{
+        border-bottom:none;
+    }
+    
+    .invoice-box table tr.total td:nth-child(2){
+        border-top:2px solid #eee;
+        font-weight:bold;
+    }
+    @media print {
+    .invoice-box table tr.heading td {
+        background-color: #eee !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
+
+@media print {
+    .invoice-box table tr.heading td {
+        color: #000000 !important;
+    }
+}
+    @media only screen and (max-width: 600px) {
+        .invoice-box table tr.top table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+        
+        .invoice-box table tr.information table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+    }
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900,700,300);
 .heading4{font-size:20px;font-weight:700;letter-spacing: 0.5px; font-family: 'Open Sans', sans-serif;color:#111111;margin:0px 0px 5px 0px;}
 .heading1{font-size:30px;line-height:20px;font-family: 'Open Sans', sans-serif;text-transform:uppercase;color:#1b2834;font-weight:900;}
@@ -552,9 +664,69 @@ section p{font-family:'Lato', sans-serif;}
 .services a:hover{color:#000;}
 .services h1{margin-top:0px !important;}
 .heading-container p{font-family:'Lato', sans-serif;text-align:center;font-size:20px !important;text-transform:uppercase;}
-
-
-
+.fa-cut
+{
+    font-size:30px;
+}
+#myTable>tr>td
+{
+   padding:15px 0px; 
+}
+.coupon {
+  padding: 20px;
+  max-width: 600px;
+    width:100%;
+    margin-top:10px;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.coupon:before {
+  content: '';
+  display: block;
+  max-width: 600px;
+    width:100%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  z-index: -1;
+  transform: scale(1.08);
+}
+.coupon:after {
+  content: '';
+  display: block;
+  max-width: 600px;
+    width:100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -1;
+  border: 3px dashed #222;
+}
+.coupon-head {
+  font-weight: 600;
+  font-size: 2em;
+}
+.coupon-price {
+  font-size: 4em;
+  font-weight: 600;
+  color: red;
+}
+.coupon-fat-text {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+.coupon-small-print {
+  font-style: italic;
+  margin: 10px 0;
+}
+.coupon-expiration {
+  font-weight: 600;
+}
 .padright
 {
     border-right:2px solid #EBEBEB;
