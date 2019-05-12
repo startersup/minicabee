@@ -459,7 +459,14 @@ font-family: 'Open Sans', sans-serif;
   border-radius:0px;
   background-color:#ffffff!important;
 }
-
+.righter
+{
+    float:right;
+    color:#000000;
+     cursor: pointer;
+    font-weight:600;
+    font-family: 'Open Sans', sans-serif;
+}
 .color:hover
 {
     background-color:#f4f4f4;
