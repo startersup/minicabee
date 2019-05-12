@@ -497,6 +497,22 @@ font-family: 'Open Sans', sans-serif;
     cursor: pointer;
    font-family: 'Open Sans', sans-serif;
 }
+.buttonsmall {
+    background-color: #BDD400;
+    border: none;
+    border-radius:3px;
+    color: #000000;
+    font-weight:600;
+    letter-spacing: 0px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 4px;
+    cursor: pointer;
+   font-family: 'Open Sans', sans-serif;
+}
 .toping
 {
     margin-top:20px;
