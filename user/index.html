@@ -267,8 +267,66 @@
 
                         <div class="tab-pane fade" id="invoice">
                             
-                                    <input type="text" id="myInput" class="controls searchbar" onkeyup="myFunction()" placeholder="search for Bookings" style="width:30%;margin-bottom:10px;">
-                          
+                                                       <div class="row">
+                                <div class="col-xs-10">
+                                    <input type="text" id="myInput" class="controls searchbar" onkeyup="myFunction()" placeholder="Search for Bookings.." style="width:30%;margin-bottom:10px;">
+                                </div>
+                                <div class="col-xs-2">Showing 5 Records</div>
+                            </div>
+                            <table id="mytable" class="table table-bordred table-striped">
+                                <thead class="header">
+                                    <th style="width:5%;">Ref Id</th>
+                                    <th style="width:20%;">Pickup From</th>
+                                    <th style="width:20%;">Dropoff To</th>
+                                    <th style="width:15%;">Date /Time</th>
+                                    <th style="width:15%;">Cab Type</th>
+                                    <th style="width:10%;">Total Fare</th>
+                                    <th style="width:8%;">Status</th>
+                                </thead>
+                                <tbody id="myTable">
+                                    <tr>
+                                        <td>BRT1234</td>
+                                        <td>Gatwick Airport South Terminal</td>
+                                        <td>Heathrow Airport Terminal 5</td>
+                                        <td>2018-11-15 19:20:00</td>
+                                        <td>SALOON CAR x 1</td>
+                                        <td>£ 7.00</td>
+                                        <td><span style="color:#ffffff;background-color:rgb(23, 23, 255);font-weight:500;letter-spacing:0.5px;padding:5px;border-radius:4px;">Booked</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>BRT1234</td>
+                                        <td>Gatwick Airport South Terminal</td>
+                                        <td>Heathrow Airport Terminal 5</td>
+                                        <td>2018-11-15 19:20:00</td>
+                                        <td>SALOON CAR x 1</td>
+                                        <td>£ 7.00</td>
+                                        <td><span style="color:#ffffff;background-color:#15ce2b;font-weight:500;letter-spacing:0.5px;padding:5px;border-radius:4px;">Completed</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>BRT1234</td>
+                                        <td>Gatwick Airport South Terminal</td>
+                                        <td>Heathrow Airport Terminal 5</td>
+                                        <td>2018-11-15 19:20:00</td>
+                                        <td>SALOON CAR x 1</td>
+                                        <td>£ 7.00</td>
+                                        <td><span style="color:#ffffff;background-color:#ff0033;font-weight:500;letter-spacing:0.5px;padding:5px;border-radius:4px;">Cancelled</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>BRT1234</td>
+                                        <td>Gatwick Airport South Terminal</td>
+                                        <td>Heathrow Airport Terminal 5</td>
+                                        <td>2018-11-15 19:20:00</td>
+                                        <td>SALOON CAR x 1</td>
+                                        <td>£ 7.00</td>
+                                        <td><span style="color:#ffffff;background-color:rgb(23, 23, 255);font-weight:500;letter-spacing:0.5px;padding:5px;border-radius:4px;">Booked</span>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
 
                         </div>
                         
