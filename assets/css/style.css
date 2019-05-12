@@ -750,11 +750,31 @@ section p{font-family:'Lato', sans-serif;}
     background-color:#f4f4f4;
     cursor: pointer;
 }
-
+.mapcon p
+{
+    font-family: 'Open Sans', sans-serif; 
+    font-size:14px;
+     font-weight:600; 
+    text-align: center;
+    background-color:#cddc39;
+    padding:5px 10px;
+}
  #map {
       max-height:100vh;
       }
-  
+  .wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.content {
+    width: 100%;
+  position: absolute;
+  padding:5px;
+  top: 60px;
+  left:0px;
+  background: white;
+}
 /*slider*/
 /* carousel */
 .media-carousel 

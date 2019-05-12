@@ -33,7 +33,15 @@
    <div class="quote">
     <div class="row">
        <div class="col-md-4 hidden-xs hidden-sm" >
-        <div id="map" > </div>
+         <div class="wrapper">
+  <div id="map"></div>
+  <div class="content mapcon">
+       <div class="col-md-6"><p><i class="fa fa-clock-o" style="font-size:24px"></i> 48 mins</p></div>
+      <div class="col-md-6"><p><i class="fa fa-road" style="font-size:24px"></i> 42.77 miles</p></div>
+    <input id="autocomplete" class="controls" type="text"  name="pick" required="" value="gatwick airport north terminal" autocomplete="off">
+       <input id="autocomplete3" class="controls" type="text" value="Heathrow airport terminal 5" name="drop" required="" autocomplete="off">
+  </div>
+</div>
         </div>
         <div class="col-md-8" style="max-height:100vh;overflow-y:scroll;">
             <div class="container2">
