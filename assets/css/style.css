@@ -415,6 +415,7 @@ font-family: 'Open Sans', sans-serif;
     .card {
   transition: 0.3s;
   width: 100%;
+  border:1px solid #cccccc;
   padding:20px 30px;
   border-radius:6px;
   background-color:#ffffff!important;
